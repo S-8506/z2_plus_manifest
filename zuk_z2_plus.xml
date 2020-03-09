@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="S-8506" fetch="https://github.com/S-8506" revision="ubp-7.1" />
-  <project path="device/zuk/msm8996-common" name="ubport_device_zuk_msm8996-common" remote="S-8506" />
-  <project path="device/zuk/z2_plus" name="ubport_device_zuk_z2_plus" remote="S-8506" />
-  <project path="kernel/zuk/z2_plus" name="ubport_kernel_zuk_msm8996" remote="S-8506" />
-  <project path="vendor/zuk" name="ubport_proprietary_vendor_zuk" remote="S-8506" />
+  <remote name="S-8506" fetch="https://github.com/S-8506" revision="halium-7.1" />
+  <project path="device/zuk/msm8996-common" name="android_device_zuk_msm8996-common" remote="S-8506" />
+  <project path="device/zuk/z2_plus" name="android_device_zuk_z2_plus" remote="S-8506" />
+  <project path="kernel/zuk/z2_plus" name="android_kernel_zuk_msm8996" remote="S-8506" />
+  <project path="vendor/zuk" name="android_proprietary_vendor_zuk" remote="S-8506" />
 </manifest>
